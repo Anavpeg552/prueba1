@@ -8,7 +8,8 @@ public class Ejercicio4 {
         int num2= entrada.nextInt();
         int num3= entrada.nextInt();
         entrada.close();
-/*
+
+/* Opcion 2
         String Num1=(num1>=num2 && num1>=num3) ? ("VALOR MAX") : (num1>num2 && num1<num3) ? ("VALOR MEDIO"): ("VALOR MINIMO");
         String Num2=(num2>=num1 && num2>=num3) ? ("VALOR MAX") : (num2>num1 && num2<num3) ? ("VALOR MEDIO"): ("VALOR MINIMO");
         String Num3=(num3>=num2 && num3>=num1) ? ("VALOR MAX") : (num3>num2 && num3<num1) ? ("VALOR MEDIO"): ("VALOR MINIMO");
@@ -17,8 +18,9 @@ public class Ejercicio4 {
         System.out.println( num2+": "+Num2);
         System.out.println( num3+": "+Num3);
 */
-        int Max=(um)
-
+        int Max=(num1>num2 && num1>num3)? (num1):(num2>num1 && num2>num3)? (num2): (num3);
+        int Min=(num1<num2 && num1<num3)? (num1):(num2<num1 && num2<num3)? (num2): (num3);
+        int Med=(num1>num2 && num1<num3 || num1>num3 && num1<num2 ) ? (num1) :(num2>num1 && num2<num3 || num2>num3 && num2<num1)? (num2): (num3);
         System.out.println( "ValorMax: "+Max);
         System.out.println( "ValorMed: "+Med);
         System.out.println( "ValorMin: "+Min);

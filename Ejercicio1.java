@@ -12,6 +12,6 @@ public class Ejercicio1 {
         double solucionA=a+b+c*(3-a)/(2*b);
         double solucionB= Math.pow((2+a*b)/4,c+2);
         double solucionC=((-b+ Math.sqrt(Math.pow(b,2)-4*a*c))/2*a);
-        System.out.println("A: "+solucionA+" B: "+ solucionB+ " C: "+ solucionC);
+        System.out.println("A:"+solucionA+" B:"+ solucionB+ " C:"+ solucionC);
     }
 }
